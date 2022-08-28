@@ -1,0 +1,20 @@
+{
+  "name": "pronl",
+  "version": "0.0.1",
+  "description": "A complete guide for immigration to the Netherlands in Farsi.",
+  "main": "index.js",
+  "authors": {
+    "name": "Dana Mirafzal",
+    "email": "dana.mr8822@gmail.com"
+  },
+  "repository": "https://github.com/danamira/move-to-nl/pronl",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-default-rtl": "^1.0.2"
+  }
+}
