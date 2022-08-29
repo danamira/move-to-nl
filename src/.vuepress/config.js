@@ -62,9 +62,7 @@ module.exports = {
           collapsable: false,
           children: [
             "EducationSystem",
-            "Unis",
-            "Fund",
-          ],
+            "Unis"          ],
         },
         {
           title:"مقاطع تحصیلی",
@@ -74,10 +72,21 @@ module.exports = {
           collapsable:false,
         },
         {
+          title:"امتحان زبان",
+          children:[ "IELTS",
+          "TOEFL"],
+          collapsable:false,
+        },
+        {
           title: "پروسه اپلای",
           children: ["Docs","Translation", "CV", "MotivationLetter"],
           collapsable:false
         },
+        {
+          title:"وقت پول دادن",
+          children:["Tuition","ProofOfFinancialMeans","Fund"],
+          collapsable:false,
+        }
       ],
     },
   },
