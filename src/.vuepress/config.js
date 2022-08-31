@@ -43,6 +43,10 @@ module.exports = {
         link: "/guide/",
       },
       {
+        text:"تحصیل در هلند",
+        link:"/Education/"
+      },
+      {
         text: "سوالات متداول",
         link: "/faq/",
       },
@@ -56,7 +60,7 @@ module.exports = {
         },
       ],
 
-      "/ApplyingForUni/": [
+      "/Education/": [
         {
           title: "قدم های اول",
           collapsable: false,
